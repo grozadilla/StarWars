@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F6A59414192CE0D2008F99B2 /* GRUCharacterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6A59412192CE0D2008F99B2 /* GRUCharacterViewController.m */; };
+		F6A59415192CE0D2008F99B2 /* GRUCharacterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F6A59413192CE0D2008F99B2 /* GRUCharacterViewController.xib */; };
+		F6A59419192CEB38008F99B2 /* GRUWikiController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6A59417192CEB38008F99B2 /* GRUWikiController.m */; };
+		F6A5941A192CEB38008F99B2 /* GRUWikiController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F6A59418192CEB38008F99B2 /* GRUWikiController.xib */; };
+		F6A5941E192CF3FB008F99B2 /* CafPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = F6A5941D192CF3FB008F99B2 /* CafPlayer.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		F6BB02BA192CB1AF00270271 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6BB02B9192CB1AF00270271 /* Foundation.framework */; };
+		F6BB02BC192CB1AF00270271 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6BB02BB192CB1AF00270271 /* CoreGraphics.framework */; };
+		F6BB02BE192CB1AF00270271 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6BB02BD192CB1AF00270271 /* UIKit.framework */; };
+		F6BB02C4192CB1AF00270271 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F6BB02C2192CB1AF00270271 /* InfoPlist.strings */; };
+		F6BB02C6192CB1AF00270271 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F6BB02C5192CB1AF00270271 /* main.m */; };
+		F6BB02CA192CB1AF00270271 /* gruAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F6BB02C9192CB1AF00270271 /* gruAppDelegate.m */; };
+		F6BB02CC192CB1AF00270271 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6BB02CB192CB1AF00270271 /* Images.xcassets */; };
+		F6BB02D3192CB1AF00270271 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6BB02D2192CB1AF00270271 /* XCTest.framework */; };
+		F6BB02D4192CB1AF00270271 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6BB02B9192CB1AF00270271 /* Foundation.framework */; };
+		F6BB02D5192CB1AF00270271 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6BB02BD192CB1AF00270271 /* UIKit.framework */; };
+		F6BB02DD192CB1AF00270271 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F6BB02DB192CB1AF00270271 /* InfoPlist.strings */; };
+		F6BB02DF192CB1AF00270271 /* StarWarsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F6BB02DE192CB1AF00270271 /* StarWarsTests.m */; };
+		F6BB02FE192CC4F300270271 /* c3po.caf in Resources */ = {isa = PBXBuildFile; fileRef = F6BB02EE192CC4F300270271 /* c3po.caf */; };
+		F6BB02FF192CC4F300270271 /* c3po.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F6BB02EF192CC4F300270271 /* c3po.jpg */; };
+		F6BB0300192CC4F300270271 /* chewbacca.caf in Resources */ = {isa = PBXBuildFile; fileRef = F6BB02F0192CC4F300270271 /* chewbacca.caf */; };
+		F6BB0301192CC4F300270271 /* chewbacca.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F6BB02F1192CC4F300270271 /* chewbacca.jpg */; };
+		F6BB0302192CC4F300270271 /* darthVader.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F6BB02F2192CC4F300270271 /* darthVader.jpg */; };
+		F6BB0303192CC4F300270271 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F6BB02F3192CC4F300270271 /* icon.png */; };
+		F6BB0304192CC4F300270271 /* iconSmall.png in Resources */ = {isa = PBXBuildFile; fileRef = F6BB02F4192CC4F300270271 /* iconSmall.png */; };
+		F6BB0305192CC4F300270271 /* palpatine.caf in Resources */ = {isa = PBXBuildFile; fileRef = F6BB02F5192CC4F300270271 /* palpatine.caf */; };
+		F6BB0306192CC4F300270271 /* palpatine.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F6BB02F6192CC4F300270271 /* palpatine.jpg */; };
+		F6BB0307192CC4F300270271 /* r2-d2.caf in Resources */ = {isa = PBXBuildFile; fileRef = F6BB02F7192CC4F300270271 /* r2-d2.caf */; };
+		F6BB0308192CC4F300270271 /* R2-D2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F6BB02F8192CC4F300270271 /* R2-D2.jpg */; };
+		F6BB0309192CC4F300270271 /* tarkin.caf in Resources */ = {isa = PBXBuildFile; fileRef = F6BB02F9192CC4F300270271 /* tarkin.caf */; };
+		F6BB030A192CC4F300270271 /* tarkin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F6BB02FA192CC4F300270271 /* tarkin.jpg */; };
+		F6BB030B192CC4F300270271 /* vader.caf in Resources */ = {isa = PBXBuildFile; fileRef = F6BB02FB192CC4F300270271 /* vader.caf */; };
+		F6BB030C192CC4F300270271 /* yoda.caf in Resources */ = {isa = PBXBuildFile; fileRef = F6BB02FC192CC4F300270271 /* yoda.caf */; };
+		F6BB030D192CC4F300270271 /* yoda.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F6BB02FD192CC4F300270271 /* yoda.jpg */; };
+		F6BB0311192CC57300270271 /* GRUCharacterModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F6BB0310192CC57300270271 /* GRUCharacterModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F6BB02D6192CB1AF00270271 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F6BB02AE192CB1AF00270271 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F6BB02B5192CB1AF00270271;
+			remoteInfo = StarWars;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F6A59411192CE0D2008F99B2 /* GRUCharacterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRUCharacterViewController.h; sourceTree = "<group>"; };
+		F6A59412192CE0D2008F99B2 /* GRUCharacterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRUCharacterViewController.m; sourceTree = "<group>"; };
+		F6A59413192CE0D2008F99B2 /* GRUCharacterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GRUCharacterViewController.xib; sourceTree = "<group>"; };
+		F6A59416192CEB38008F99B2 /* GRUWikiController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRUWikiController.h; sourceTree = "<group>"; };
+		F6A59417192CEB38008F99B2 /* GRUWikiController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRUWikiController.m; sourceTree = "<group>"; };
+		F6A59418192CEB38008F99B2 /* GRUWikiController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GRUWikiController.xib; sourceTree = "<group>"; };
+		F6A5941C192CF3DC008F99B2 /* CafPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CafPlayer.h; sourceTree = "<group>"; };
+		F6A5941D192CF3FB008F99B2 /* CafPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CafPlayer.m; sourceTree = "<group>"; };
+		F6BB02B6192CB1AF00270271 /* StarWars.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StarWars.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6BB02B9192CB1AF00270271 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F6BB02BB192CB1AF00270271 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F6BB02BD192CB1AF00270271 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F6BB02C1192CB1AF00270271 /* StarWars-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StarWars-Info.plist"; sourceTree = "<group>"; };
+		F6BB02C3192CB1AF00270271 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F6BB02C5192CB1AF00270271 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F6BB02C7192CB1AF00270271 /* StarWars-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "StarWars-Prefix.pch"; sourceTree = "<group>"; };
+		F6BB02C8192CB1AF00270271 /* gruAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gruAppDelegate.h; sourceTree = "<group>"; };
+		F6BB02C9192CB1AF00270271 /* gruAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gruAppDelegate.m; sourceTree = "<group>"; };
+		F6BB02CB192CB1AF00270271 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F6BB02D1192CB1AF00270271 /* StarWarsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StarWarsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6BB02D2192CB1AF00270271 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		F6BB02DA192CB1AF00270271 /* StarWarsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StarWarsTests-Info.plist"; sourceTree = "<group>"; };
+		F6BB02DC192CB1AF00270271 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F6BB02DE192CB1AF00270271 /* StarWarsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StarWarsTests.m; sourceTree = "<group>"; };
+		F6BB02EE192CC4F300270271 /* c3po.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = c3po.caf; sourceTree = "<group>"; };
+		F6BB02EF192CC4F300270271 /* c3po.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = c3po.jpg; sourceTree = "<group>"; };
+		F6BB02F0192CC4F300270271 /* chewbacca.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = chewbacca.caf; sourceTree = "<group>"; };
+		F6BB02F1192CC4F300270271 /* chewbacca.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = chewbacca.jpg; sourceTree = "<group>"; };
+		F6BB02F2192CC4F300270271 /* darthVader.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = darthVader.jpg; sourceTree = "<group>"; };
+		F6BB02F3192CC4F300270271 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		F6BB02F4192CC4F300270271 /* iconSmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconSmall.png; sourceTree = "<group>"; };
+		F6BB02F5192CC4F300270271 /* palpatine.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = palpatine.caf; sourceTree = "<group>"; };
+		F6BB02F6192CC4F300270271 /* palpatine.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = palpatine.jpg; sourceTree = "<group>"; };
+		F6BB02F7192CC4F300270271 /* r2-d2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "r2-d2.caf"; sourceTree = "<group>"; };
+		F6BB02F8192CC4F300270271 /* R2-D2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "R2-D2.jpg"; sourceTree = "<group>"; };
+		F6BB02F9192CC4F300270271 /* tarkin.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = tarkin.caf; sourceTree = "<group>"; };
+		F6BB02FA192CC4F300270271 /* tarkin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tarkin.jpg; sourceTree = "<group>"; };
+		F6BB02FB192CC4F300270271 /* vader.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = vader.caf; sourceTree = "<group>"; };
+		F6BB02FC192CC4F300270271 /* yoda.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = yoda.caf; sourceTree = "<group>"; };
+		F6BB02FD192CC4F300270271 /* yoda.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yoda.jpg; sourceTree = "<group>"; };
+		F6BB030F192CC57300270271 /* GRUCharacterModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRUCharacterModel.h; sourceTree = "<group>"; };
+		F6BB0310192CC57300270271 /* GRUCharacterModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRUCharacterModel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F6BB02B3192CB1AF00270271 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6BB02BC192CB1AF00270271 /* CoreGraphics.framework in Frameworks */,
+				F6BB02BE192CB1AF00270271 /* UIKit.framework in Frameworks */,
+				F6BB02BA192CB1AF00270271 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6BB02CE192CB1AF00270271 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6BB02D3192CB1AF00270271 /* XCTest.framework in Frameworks */,
+				F6BB02D5192CB1AF00270271 /* UIKit.framework in Frameworks */,
+				F6BB02D4192CB1AF00270271 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F6A59410192CE086008F99B2 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F6A59411192CE0D2008F99B2 /* GRUCharacterViewController.h */,
+				F6A59412192CE0D2008F99B2 /* GRUCharacterViewController.m */,
+				F6A59413192CE0D2008F99B2 /* GRUCharacterViewController.xib */,
+				F6A59416192CEB38008F99B2 /* GRUWikiController.h */,
+				F6A59417192CEB38008F99B2 /* GRUWikiController.m */,
+				F6A59418192CEB38008F99B2 /* GRUWikiController.xib */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		F6A5941B192CF3A9008F99B2 /* Sound */ = {
+			isa = PBXGroup;
+			children = (
+				F6A5941D192CF3FB008F99B2 /* CafPlayer.m */,
+				F6A5941C192CF3DC008F99B2 /* CafPlayer.h */,
+			);
+			name = Sound;
+			sourceTree = "<group>";
+		};
+		F6BB02AD192CB1AF00270271 = {
+			isa = PBXGroup;
+			children = (
+				F6A5941B192CF3A9008F99B2 /* Sound */,
+				F6A59410192CE086008F99B2 /* Controllers */,
+				F6BB030E192CC51A00270271 /* Modelo */,
+				F6BB02BF192CB1AF00270271 /* StarWars */,
+				F6BB02D8192CB1AF00270271 /* StarWarsTests */,
+				F6BB02B8192CB1AF00270271 /* Frameworks */,
+				F6BB02B7192CB1AF00270271 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F6BB02B7192CB1AF00270271 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F6BB02B6192CB1AF00270271 /* StarWars.app */,
+				F6BB02D1192CB1AF00270271 /* StarWarsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F6BB02B8192CB1AF00270271 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F6BB02B9192CB1AF00270271 /* Foundation.framework */,
+				F6BB02BB192CB1AF00270271 /* CoreGraphics.framework */,
+				F6BB02BD192CB1AF00270271 /* UIKit.framework */,
+				F6BB02D2192CB1AF00270271 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F6BB02BF192CB1AF00270271 /* StarWars */ = {
+			isa = PBXGroup;
+			children = (
+				F6BB02ED192CC4F300270271 /* resources */,
+				F6BB02C8192CB1AF00270271 /* gruAppDelegate.h */,
+				F6BB02C9192CB1AF00270271 /* gruAppDelegate.m */,
+				F6BB02CB192CB1AF00270271 /* Images.xcassets */,
+				F6BB02C0192CB1AF00270271 /* Supporting Files */,
+			);
+			path = StarWars;
+			sourceTree = "<group>";
+		};
+		F6BB02C0192CB1AF00270271 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F6BB02C1192CB1AF00270271 /* StarWars-Info.plist */,
+				F6BB02C2192CB1AF00270271 /* InfoPlist.strings */,
+				F6BB02C5192CB1AF00270271 /* main.m */,
+				F6BB02C7192CB1AF00270271 /* StarWars-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F6BB02D8192CB1AF00270271 /* StarWarsTests */ = {
+			isa = PBXGroup;
+			children = (
+				F6BB02DE192CB1AF00270271 /* StarWarsTests.m */,
+				F6BB02D9192CB1AF00270271 /* Supporting Files */,
+			);
+			path = StarWarsTests;
+			sourceTree = "<group>";
+		};
+		F6BB02D9192CB1AF00270271 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F6BB02DA192CB1AF00270271 /* StarWarsTests-Info.plist */,
+				F6BB02DB192CB1AF00270271 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F6BB02ED192CC4F300270271 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				F6BB02EE192CC4F300270271 /* c3po.caf */,
+				F6BB02EF192CC4F300270271 /* c3po.jpg */,
+				F6BB02F0192CC4F300270271 /* chewbacca.caf */,
+				F6BB02F1192CC4F300270271 /* chewbacca.jpg */,
+				F6BB02F2192CC4F300270271 /* darthVader.jpg */,
+				F6BB02F3192CC4F300270271 /* icon.png */,
+				F6BB02F4192CC4F300270271 /* iconSmall.png */,
+				F6BB02F5192CC4F300270271 /* palpatine.caf */,
+				F6BB02F6192CC4F300270271 /* palpatine.jpg */,
+				F6BB02F7192CC4F300270271 /* r2-d2.caf */,
+				F6BB02F8192CC4F300270271 /* R2-D2.jpg */,
+				F6BB02F9192CC4F300270271 /* tarkin.caf */,
+				F6BB02FA192CC4F300270271 /* tarkin.jpg */,
+				F6BB02FB192CC4F300270271 /* vader.caf */,
+				F6BB02FC192CC4F300270271 /* yoda.caf */,
+				F6BB02FD192CC4F300270271 /* yoda.jpg */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		F6BB030E192CC51A00270271 /* Modelo */ = {
+			isa = PBXGroup;
+			children = (
+				F6BB030F192CC57300270271 /* GRUCharacterModel.h */,
+				F6BB0310192CC57300270271 /* GRUCharacterModel.m */,
+			);
+			name = Modelo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F6BB02B5192CB1AF00270271 /* StarWars */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6BB02E2192CB1AF00270271 /* Build configuration list for PBXNativeTarget "StarWars" */;
+			buildPhases = (
+				F6BB02B2192CB1AF00270271 /* Sources */,
+				F6BB02B3192CB1AF00270271 /* Frameworks */,
+				F6BB02B4192CB1AF00270271 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StarWars;
+			productName = StarWars;
+			productReference = F6BB02B6192CB1AF00270271 /* StarWars.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F6BB02D0192CB1AF00270271 /* StarWarsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6BB02E5192CB1AF00270271 /* Build configuration list for PBXNativeTarget "StarWarsTests" */;
+			buildPhases = (
+				F6BB02CD192CB1AF00270271 /* Sources */,
+				F6BB02CE192CB1AF00270271 /* Frameworks */,
+				F6BB02CF192CB1AF00270271 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F6BB02D7192CB1AF00270271 /* PBXTargetDependency */,
+			);
+			name = StarWarsTests;
+			productName = StarWarsTests;
+			productReference = F6BB02D1192CB1AF00270271 /* StarWarsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F6BB02AE192CB1AF00270271 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = gru;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = gru;
+				TargetAttributes = {
+					F6BB02D0192CB1AF00270271 = {
+						TestTargetID = F6BB02B5192CB1AF00270271;
+					};
+				};
+			};
+			buildConfigurationList = F6BB02B1192CB1AF00270271 /* Build configuration list for PBXProject "StarWars" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F6BB02AD192CB1AF00270271;
+			productRefGroup = F6BB02B7192CB1AF00270271 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F6BB02B5192CB1AF00270271 /* StarWars */,
+				F6BB02D0192CB1AF00270271 /* StarWarsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F6BB02B4192CB1AF00270271 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6BB0306192CC4F300270271 /* palpatine.jpg in Resources */,
+				F6BB0300192CC4F300270271 /* chewbacca.caf in Resources */,
+				F6BB0304192CC4F300270271 /* iconSmall.png in Resources */,
+				F6BB030B192CC4F300270271 /* vader.caf in Resources */,
+				F6BB030D192CC4F300270271 /* yoda.jpg in Resources */,
+				F6BB030C192CC4F300270271 /* yoda.caf in Resources */,
+				F6BB0309192CC4F300270271 /* tarkin.caf in Resources */,
+				F6BB0302192CC4F300270271 /* darthVader.jpg in Resources */,
+				F6BB02FF192CC4F300270271 /* c3po.jpg in Resources */,
+				F6A59415192CE0D2008F99B2 /* GRUCharacterViewController.xib in Resources */,
+				F6BB02FE192CC4F300270271 /* c3po.caf in Resources */,
+				F6BB0303192CC4F300270271 /* icon.png in Resources */,
+				F6BB02C4192CB1AF00270271 /* InfoPlist.strings in Resources */,
+				F6BB0307192CC4F300270271 /* r2-d2.caf in Resources */,
+				F6BB02CC192CB1AF00270271 /* Images.xcassets in Resources */,
+				F6BB0301192CC4F300270271 /* chewbacca.jpg in Resources */,
+				F6A5941A192CEB38008F99B2 /* GRUWikiController.xib in Resources */,
+				F6BB0308192CC4F300270271 /* R2-D2.jpg in Resources */,
+				F6BB0305192CC4F300270271 /* palpatine.caf in Resources */,
+				F6BB030A192CC4F300270271 /* tarkin.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6BB02CF192CB1AF00270271 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6BB02DD192CB1AF00270271 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F6BB02B2192CB1AF00270271 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6A59419192CEB38008F99B2 /* GRUWikiController.m in Sources */,
+				F6BB02C6192CB1AF00270271 /* main.m in Sources */,
+				F6A59414192CE0D2008F99B2 /* GRUCharacterViewController.m in Sources */,
+				F6BB02CA192CB1AF00270271 /* gruAppDelegate.m in Sources */,
+				F6BB0311192CC57300270271 /* GRUCharacterModel.m in Sources */,
+				F6A5941E192CF3FB008F99B2 /* CafPlayer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6BB02CD192CB1AF00270271 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6BB02DF192CB1AF00270271 /* StarWarsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F6BB02D7192CB1AF00270271 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F6BB02B5192CB1AF00270271 /* StarWars */;
+			targetProxy = F6BB02D6192CB1AF00270271 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F6BB02C2192CB1AF00270271 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6BB02C3192CB1AF00270271 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F6BB02DB192CB1AF00270271 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6BB02DC192CB1AF00270271 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F6BB02E0192CB1AF00270271 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F6BB02E1192CB1AF00270271 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F6BB02E3192CB1AF00270271 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StarWars/StarWars-Prefix.pch";
+				INFOPLIST_FILE = "StarWars/StarWars-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F6BB02E4192CB1AF00270271 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StarWars/StarWars-Prefix.pch";
+				INFOPLIST_FILE = "StarWars/StarWars-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F6BB02E6192CB1AF00270271 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/StarWars.app/StarWars";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StarWars/StarWars-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "StarWarsTests/StarWarsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		F6BB02E7192CB1AF00270271 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/StarWars.app/StarWars";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StarWars/StarWars-Prefix.pch";
+				INFOPLIST_FILE = "StarWarsTests/StarWarsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F6BB02B1192CB1AF00270271 /* Build configuration list for PBXProject "StarWars" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6BB02E0192CB1AF00270271 /* Debug */,
+				F6BB02E1192CB1AF00270271 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6BB02E2192CB1AF00270271 /* Build configuration list for PBXNativeTarget "StarWars" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6BB02E3192CB1AF00270271 /* Debug */,
+				F6BB02E4192CB1AF00270271 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6BB02E5192CB1AF00270271 /* Build configuration list for PBXNativeTarget "StarWarsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6BB02E6192CB1AF00270271 /* Debug */,
+				F6BB02E7192CB1AF00270271 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F6BB02AE192CB1AF00270271 /* Project object */;
+}
